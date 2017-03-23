@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-02 14:29:15
+ * @version $Id$
+ */
+*{
+	margin:0;
+	padding:0;
+}
+#box1{
+background-color: #ddd;
+	color:#ff6600;
+	font-size:24px;
+	margin:20px;
+	width:200px;
+	height:100px;
+	text-align: center;
+	padding:20px;
+	margin-bottom: 30px;
+border-bottom:  1px solid;
+}
+
+#box2{
+
+	position: relative;
+
+background-color: #ddd;
+	color:#ff6600;
+	font-size:24px;
+margin:20px;
+	width:200px;
+	height:100px;
+	text-align: center;
+	padding:20px;
+}
+#box3{
+	position: relative;
+background-color: #ddd;
+	color:#ff6600;
+	font-size:24px;
+margin:20px;
+	width:200px;
+	height:100px;
+	text-align: center;
+	padding:20px;
+}
+#box4{
+	position:absolute;
+background-color: #ddd;
+	color:#ff6600;
+	font-size:24px;
+margin:20px;
+	width:200px;
+	height:100px;
+	text-align: center;
+	padding:20px;
+}
+
+
