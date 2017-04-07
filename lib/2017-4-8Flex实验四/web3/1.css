@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-07 11:59:48
+ * @version $Id$
+ */
+body{
+	background-color: #F2F2F2;
+}
+.ui-thing-container{
+width:1210px;
+height:790px;
+border:1px solid black;
+
+}
+.ui-thing1,
+.ui-thing2,
+.ui-thing3{
+float:left;
+}
+
+.ui-thing4{
+clear:both;
+float:left;
+
+}
+.ui-thing5,
+.ui-thing6{
+float:left;
+
+}
+.ui-thing1,
+.ui-thing2,
+.ui-thing3,
+.ui-thing4,
+.ui-thing5,
+.ui-thing6{
+margin-left:10px;
+margin-top:10px;
+margin-bottom:10px; 
+}
+.ui-body {
+    width: 390px;
+    height: 260px;
+    background-color: #FFFFEB;
+    
+}
+
+.ui-footer {
+    width: 390px;
+    height: 110px;
+    background-color: #FFFFFF;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-footer-item1,
+.ui-footer-item2,
+.ui-footer-item3 {
+    width: 370px;
+    
+    background-color: #FFFFFF;
+}
+
+.ui-footer-item1,
+.ui-footer-item2 {
+    margin-bottom: 10px;
+}
+
+.ui-footer-item1 span {
+    height: 20px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+    line-height: 15px;
+    margin-left: 10px;
+}
+
+.ui-footer-item2 span {
+    height: 20px;
+    font-size: 14px;
+    color: rgb(246, 29, 75);
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.ui-footer-item3 {
+    height: 30px;
+    font-family: "Helvetica Neue";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(246, 29, 75);
+}
+
+.ui-footer-item3-s,
+.ui-footer-item3-sold {
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+    line-height: 18px;
+}
+
+.ui-footer-item3-sold {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.ui-footer-item3-money {
+    font-size: 15px;
+    margin-left: 10px;
+}
