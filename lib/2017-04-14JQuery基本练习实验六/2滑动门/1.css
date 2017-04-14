@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-14 08:02:42
+ * @version $Id$
+ */
+.nav-bar1,
+.nav-bar2,
+.nav-bar3{
+display:flex;
+justify-content: center;
+align-items: center;
+color:black;
+width:100px;
+height:36px;
+box-shadow: 3px 3px 4px #ddd;
+border:1px solid black;
+transition: all ease 0.5s;
+cursor: pointer;
+border-radius: 3px;
+float:left;
+}
+.nav-bar1:hover,
+.nav-bar2:hover,
+.nav-bar3:hover
+{
+background: #C0C0C0;
+
+}
+
+.cont{
+	border:1px solid black;
+clear:both;
+width:410px;
+height:270px;
+display:flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+color:#808080;
+}

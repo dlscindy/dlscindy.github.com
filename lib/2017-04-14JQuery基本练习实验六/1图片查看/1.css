@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-14 08:02:42
+ * @version $Id$
+ */
+*{
+
+	margin:auto;
+
+}
+.cont {
+margin-left: 15%;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6,
+.pic7,
+.pic8 {
+    width: 200px;
+    height: 200px;
+    background: #C0C0C0;
+    color:white;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6,
+.pic7,
+.pic8 {
+    list-style: none;
+    float: left;
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pic5 {
+    clear: both;
+}
+
+.mask {
+	position:absolute;
+   width:100%;
+   height:200%;
+
+    background-color: rgba(0, 0, 1, 0.5);
+   
+   display:flex;
+   
+  justify-content: center;
+}
+
+.b-box {
+	position:absolute;
+   
+   
+   
+  
+}
+img{
+
+	width:100%;
+	height:100%;
+
+}
+
+.b-box img{
+	margin:20px;
+	border:10px solid white;
+width:auto;
+height:auto;
+
+}
