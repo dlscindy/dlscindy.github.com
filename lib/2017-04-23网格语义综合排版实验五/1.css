@@ -1,0 +1,546 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-20 13:13:49
+ * @version $Id$
+ */
+html{
+  font-family:"Microsoft YaHei";
+}
+.ui-cont{
+width:850px;
+height:500px;
+
+}
+
+.ui-top-button1,
+.ui-top-button2,{
+color:white;
+
+
+}
+
+.ui-top-button{
+display:flex;
+	flex-direction: row;
+	
+}
+
+.ui-top-button1{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+ width:80px;
+ height:25px;
+
+   
+    background: #1B88C4 linear-gradient(hsla(0,0%,100%,.2), transparent); 
+    border-radius: 3px; 
+   
+    color: white; 
+    text-shadow: 0 -.05em .05em rgba(0,0,0,.5); 
+    font-size:16px; 
+    line-height: 1.5;
+  
+
+}
+.ui-top-button2{
+ display:flex;
+justify-content: center;
+align-items: center;
+ width:20px;
+height:20px;
+   
+    background: #FF4002 linear-gradient(hsla(0,0%,100%,.2), transparent); 
+    border-radius: .2em; 
+    
+    color: white; 
+    text-shadow: 0 -.05em .05em rgba(0,0,0,.5); 
+    font-size:15px; 
+    
+    margin-left: 10px;
+    
+    
+}
+
+.ui-header{
+width:100%;
+height:80px;
+border-top:5px solid #1B88C4;
+
+}
+.ui-rootinfo{
+width:100%-1px;
+
+height:50px;
+background: #F9F9F9;
+border-left:1px solid #DADADA;
+border-right:1px solid #DADADA;
+}
+.ui-printinfo{
+width:100%-1px;
+height:25px;
+background: #FFFBDE;
+border:1px solid #DADADA;
+display:flex;
+flex-direction: column;
+}
+.ui-titlebar{
+  width:100%;
+  height:20px;
+  background: #CEDCE8;
+  margin-top:5px;
+}
+.ui-place1,
+.ui-place2,
+.ui-place3{
+width:100%-1px;
+height:40px;
+background: #F2F2F2;
+border-left:1px solid #DADADA;
+border-right:1px solid #DADADA;
+border-bottom: 1px solid #DADADA;
+}
+.ui-transport1,
+.ui-transport2{
+width:100%;
+height:43px;
+background: #FFFFFF;
+
+}
+.ui-place2,
+.ui-place3{
+border-top: 1px solid #DADADA;
+}
+
+.ui-rootinfo-fromToTime{
+
+color:#cc0000;
+
+}
+
+.ui-rootinfo-cost:before{
+  display:inline;
+content: "经额";
+margin-left:20px;
+}
+.ui-rootinfo-cost:after{
+ display:inline;
+content: "6560元";
+color:#cc0000;
+margin-left:10px;
+}
+
+
+.ui-rootinfo-totalTimeSpending{
+display: inline;
+}
+.ui-rootinfo-totalTimeSpending:before{
+
+  display:inline;
+content: "所要时间";
+font-size: 15px;
+margin-left: 10px;
+}
+.ui-rootinfo-totalTimeSpending:after{
+
+ display:inline;
+content: "1小时0分";
+color:#cc0000;
+margin-left:10px;
+font-size: 15px;
+font-weight: bold;
+
+}
+
+.ui-rootinfo-takingTimeSpending:before{
+  display:inline;
+  content:"乘车时间";
+ margin-left: 20px;
+}
+.ui-rootinfo-takingTimeSpending{
+display:inline;
+
+}
+.ui-rootinfo-takingTimeSpending:after{
+  display:inline;
+  content:"54分";
+  font-weight: bold;
+  margin-left: 10px;
+}
+.ui-rootinfo{
+display:flex;
+flex-direction: column;
+}
+.ui-rootinfo-fromToTime i{
+margin-left:5px;
+margin-right: 5px;
+}
+.ui-rootinfo-timesOfCarChanging:before{
+
+display:inline;
+  content:"乘换";
+  margin-left: 20px;
+
+}
+.ui-rootinfo-timesOfCarChanging:after{
+display:inline;
+  content:"1回";
+  margin-left: 10px;
+color:#cc0000;
+font-weight: bold;
+}
+
+.ui-rootinfo-distance:before{
+display: inline;
+content:"距离";
+margin-left: 20px;
+}
+.ui-rootinfo-distance:after{
+display: inline;
+content:"190.4km";
+font-weight: bold;
+margin-left: 10px;
+}
+
+.ui-rootinfo-fromToTime{
+margin-left: 10px;
+
+}
+.ui-printinfo-toMakeInline{
+
+display: flex;
+flex-direction: row;
+align-self: flex-end;
+}
+.ui-printinfo-toMakeInline a{
+
+  color:#002cbd;
+}
+.ui-printinfo{
+display: flex;
+flex-direction: column;
+
+}
+.ui-printinfo-print{
+position: relative;
+
+}
+.ui-printinfo-print:before{
+position: absolute;
+display: inline;
+content: url(img/1print.png);
+margin-left: -20px;
+margin-top: 3px;
+}
+
+.ui-printinfo-detailInfo:before{
+position:absolute;
+display: inline;
+content: url(img/2detailInfo.png);
+margin-left: -20px;
+margin-top: 3px;
+}
+.ui-printinfo-detailInfo{
+
+  position:relative;
+  margin-right:10px;
+  margin-left: 40px;
+}
+.ui-titlebar-table{
+ border-collapse: collapse;
+ width:100%;
+ height:100%;
+}
+.ui-titlebar-table td{
+
+ text-align:center;
+  border:1px solid white;
+ 
+  font-size: 14px;
+
+color:#607a90;
+}
+
+.ui-titlebar-table-passPlace{
+
+  width:60%;
+}
+.ui-titlebar-table-getOnPlace,
+.ui-titlebar-table-cost,
+.ui-titlebar-table-seatAndCost,
+.ui-titlebar-table-distance{
+ width:10%;
+
+}
+
+.ui-place1{
+display: flex;
+flex-direction: row;
+
+}
+
+.ui-place1-detail,
+.ui-place3-detail
+{
+display: flex;
+flex-direction: row;
+
+
+}
+
+
+.ui-place1-getOnPlace,
+.ui-place3-getOnPlace{
+display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.ui-place1-placeName,
+.ui-place3-placeName{
+
+  width:60%;
+}
+.ui-place1-getOnPlace,
+.ui-place3-getOnPlace{
+width:10%;
+font-size: 14px;
+}
+
+.ui-place1-detail a,
+.ui-place3-detail a{
+
+ 
+  margin-left:10px;
+  font-size: 14px;
+  color:#002cbd;
+}
+.ui-place1-detail,
+.ui-place3-detail{
+display:flex;
+  align-items: center;
+
+}
+
+.ui-place1-detail{
+margin-left: 40px;
+
+}
+.ui-place3-detail{
+margin-left: 82px;
+
+}
+.ui-place1-placeName-square,
+.ui-place3-placeName-square{
+
+  position: relative;
+}
+.ui-place1-placeName-square:before,
+.ui-place3-placeName-square:before{
+
+position:absolute;
+display: inline;
+content: url(img/3cloud.png);
+margin-left: -25px;
+margin-top: -3px;
+}
+
+.ui-place1-placeName-square,
+.ui-place3-placeName-square{
+width:15px;
+height:15px;
+background: #1689d3 linear-gradient(hsla(0,0%,100%,0.5), transparent); 
+border:1px solid white;
+margin-left: 25%;
+margin-top: 12px;
+}
+
+.ui-place1-placeName-square:after{
+position: absolute;
+display: inline;
+content: "名古屋";
+width:100px;
+margin-left: 20px;
+margin-top: -3px;
+
+}
+
+.ui-place3-placeName-square:after{
+position: absolute;
+display: inline;
+content: "大阪";
+width:100px;
+margin-left: 20px;
+margin-top: -3px;
+
+}
+
+
+.ui-transport1,
+.ui-transport2{
+display: flex;
+flex-direction: row;
+
+}
+.ui-transport1-time{
+margin-left:3px;
+width:130px;
+
+}
+.ui-transport1-time span{
+ font-size: 15px;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.ui-transport1-time-line1{
+  font-weight:bold;
+}
+.ui-transport1-divideLine{
+width:2px;
+height:100%-3px;
+background: linear-gradient( #96c7d8 50%,white 50%);
+background-size: 100% 13px;
+border:3px solid #96c7d8;
+
+}
+.ui-transport1 a{
+position:relative;
+  width:200px;
+  color:#0069a3;
+  margin-left:70px;
+  margin-top: 10px;
+}
+
+.ui-transport1 a:before{
+  position:absolute;
+display: inline;
+content: url(img/4newTransport.png);
+margin-left: -60px;
+}
+.ui-transport1-detail{
+width:40%;
+
+margin-left: 100px;
+}
+.ui-transport2-detail{
+width:40%;
+margin-left: 100px;
+}
+.ui-transport1-detail span,
+.ui-transport2-detail span
+{
+  width:25%;
+  border-left:1px solid #cdcdcd;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+.ui-transport1-detail-seatandcoat span,
+.ui-transport2-detail-seatandcoat span{
+width:100%;
+border:0;
+}
+.ui-transport1-detail-seatandcoat{
+display:flex;
+flex-direction: column;
+}
+.ui-transport1-detail-coat{
+font-weight: bold;
+
+}
+.ui-transport1-detail,
+.ui-transport2-detail
+{
+
+  display:flex;
+flex-direction: row;
+}
+
+
+.ui-place2{
+display:flex;
+flex-direction: row;
+}
+.ui-place2-getOnPlace span{
+display:block;
+
+}
+.ui-place2-square{
+position:relative;
+margin-left: 19px;
+width:15px;
+height:15px;
+background: #1689d3 linear-gradient(hsla(0,0%,100%,0.5), transparent); 
+margin-top: 13px;
+}
+.ui-place2-square:before{
+position: absolute;
+content: "";
+width:9px;
+height:9px;
+background-color: white;
+margin-top: 3px;
+margin-left:3px;
+
+}
+
+.ui-place2-square:after{
+display: inline;
+content: "新大阪";
+position:absolute;
+width:100px;
+margin-left: 20px;
+margin-top:-3px;
+}
+.ui-place2-getOnPlace{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 380px;
+  font-size: 14px;
+
+}
+.ui-place2-time{
+width:13%;
+height:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+}
+.ui-place2-detail{
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 50px;
+}
+.ui-place2-detail a{
+font-size: 14px;
+color:#002cbd;
+margin-left: 10px;
+}
+
+.ui-transport2-place{
+position:relative;
+  color:#0069a3;
+  margin-left:70px;
+  margin-top:12px;
+
+  width:200px;
+}
+.ui-transport2-place:before{
+
+position:absolute;
+content: url(img/5JR.png);
+margin-left: -65px;
+}
+
+.ui-place3{
+display: flex;
+flex-direction: row;
+}
