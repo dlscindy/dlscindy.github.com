@@ -470,7 +470,7 @@ display:block;
 }
 .ui-place2-square{
 position:relative;
-margin-left: 19px;
+margin-left: -7px;
 width:15px;
 height:15px;
 background: #1689d3 linear-gradient(hsla(0,0%,100%,0.5), transparent); 
@@ -505,12 +505,13 @@ margin-top:-3px;
 
 }
 .ui-place2-time{
-width:13%;
+width:16%;
 height:100%;
 display: flex;
 justify-content: center;
 align-items: center;
 font-size: 14px;
+
 }
 .ui-place2-detail{
 
